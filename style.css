@@ -1,0 +1,46 @@
+body {
+	background-image: url("./images/skin_side_up.png");
+}
+
+.navbar {
+	font-size: 300;
+}
+h2,
+h3 {
+	color: #4aaaa5;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#profileimg {
+	margin-top: 10px;
+	margin-right: 25px;
+	width: 200px;
+	height: auto;
+}
+.my-work {
+	float: left;
+	position: relative;
+	padding: 15px;
+}
+.thumbnail {
+	position: relative;
+}
+/*I stole some styling from my previous portfolio assignments to try and get the text to work correctly, 
+althought it doesn't work as it did previously.*/
+.caption {
+	position: absolute;
+	width: 100%;
+	background-color: #4aaaa5;
+	color: #fff;
+	font-weight: 300;
+	line-height: 30px;
+	bottom: 200px;
+	padding: 15px;
+}
+.folio-immages {
+
+}
+footer {
+	background-color: darkgray;
+	width: 100%;
+}
